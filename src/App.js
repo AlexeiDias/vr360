@@ -3,10 +3,16 @@ import { Routes, Route, Link} from "react-router-dom"
 import './App.css';
 import Home from "./pages/home";
 import About from "./pages/about";
+import SearchBar from "./components/SearchBar/SearchBar";
+import TopContainer from "./components/TopContainer";
+import Nav from "./components/Nav";
 function App() {
   return (
+    
     <div className="App">
-      <h1>Welcome to React Router!</h1>
+      <TopContainer />
+      <SearchBar />
+      <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
