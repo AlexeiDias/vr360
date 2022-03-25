@@ -1,6 +1,6 @@
 .colorTop {
-  padding: 1rem;
-  background-color: aqua;
+  padding: 0rem;
+  background-color: rgb(17, 33, 68);
   box-shadow: 1rem;
-  color: black;
+  color: white;
 }

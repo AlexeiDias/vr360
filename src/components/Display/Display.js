@@ -11,19 +11,17 @@ import teste3 from '../../images/3.jpg'
 export default function Display() {
   return (
 	  <div class="container ">
-	<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src={ teste1 } class="d-block w-100" alt="..." />
-    </div>
-    <div class="carousel-item">
-      <img src={ teste2 } class="d-block w-100" alt="..." />
-    </div>
-    <div class="carousel-item">
-      <img src={ teste3 } class="d-block w-100" alt="..." />
-    </div>
-  </div>
+		  <div class="row">
+			  <div  class="col ">
+			  <div class="ratio ratio-16x9">
+  <iframe
+    src="https://my.matterport.com/show/?m=MwSJpTXtdSg"
+    title="YouTube video"
+    allowfullscreen
+  ></iframe>
 </div>
+				</div>
+	</div>
 </div>
   )
 }
