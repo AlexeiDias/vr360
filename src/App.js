@@ -4,7 +4,7 @@ import './App.css';
 import Home from "./pages/home";
 import About from "./pages/about";
 import SearchBar from "./components/SearchBar/SearchBar";
-import TopContainer from "./components/TopContainer";
+import TopContainer from "./components/Topcontainer/TopContainer";
 import Nav from "./components/Nav";
 function App() {
   return (

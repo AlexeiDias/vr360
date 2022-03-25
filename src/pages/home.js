@@ -1,14 +1,15 @@
 import * as React from "react";
-//import { Routes, Route, Link } from "react-router-dom";
-//import TopContainer from "../components/TopContainer";
-import bootstrap from 'bootstrap'
-//import SearchBar  from "../components/SearchBar";
+//import bootstrap from 'bootstrap'
+import Display from "../components/Display/Display";
+import { CardGroup } from "../components/CardGroup/CardGroup";
+
 
 const home = () => {
     return (
         <>
         
-    
+    <Display />
+    <CardGroup />
         </>
       );
 }
