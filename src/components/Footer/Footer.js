@@ -1,10 +1,10 @@
 import React from 'react'
+import index from "../Footer/index.css";
 //import React, { Component} from 'react'
 import bootstrap from 'bootstrap'
-import index from './index.css'
 
 
-const SearchBar = () => {
+export const Footer = () => {
   return (
     <>
     
@@ -13,23 +13,8 @@ const SearchBar = () => {
       {/* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button> */}
-
-      <div class=" navbar-collapse justify-content-md-start" id="navbarsExample08">
-        <ul class="navbar-nav">
-           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
-            <ul class="dropdown-menu" aria-labelledby="dropdown08">
-              <li><a class="dropdown-item" href="#">Restaurantes</a></li>
-              <li><a class="dropdown-item" href="#">Imóveis</a></li>
-              <li><a class="dropdown-item" href="#">Pontos turísticos</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="d-flex">
-      <input class="form-control my-1" type="search" placeholder="Search" aria-label="Search" />
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
-    </div>
+    
+    <p class="social">Get connected with us on social networks</p>
     <div class="justify-content-end">
     <a href="https://wa.me/14156565950?text=I'teste" target="_blank">
     <svg xmlns="https://wa.me/14156565950?text=I'teste" width="16" height="16" fill="currentColor" class="bi bi-whatsapp mx-4" viewBox="0 0 16 16">
@@ -64,7 +49,7 @@ const SearchBar = () => {
 
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
-export default SearchBar
+
 
 
 

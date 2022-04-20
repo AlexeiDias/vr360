@@ -14,11 +14,11 @@ export default function Display() {
 		  <div class="row">
 			  <div  class="col ">
 			  <div class="ratio ratio-16x9">
-  <iframe
+  {/* <iframe
     src="https://my.matterport.com/show/?m=MwSJpTXtdSg"
     title="YouTube video"
     allowfullscreen
-  ></iframe>
+  ></iframe> */}
 </div>
 				</div>
 	</div>
